@@ -6,11 +6,10 @@
 h1{
     text-align: center;
     color: 	#99ff33;
-    background-color: aliceblue;
 }
 
 .head{
-    height: 150px;
+    height: auto;
     width: auto;
     background-color: black;
 }
@@ -19,7 +18,7 @@ h1{
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background-color: aliceblue;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,13 +32,23 @@ h1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 500px;
 }
 
 #score{
     display: flex;
-    align-items:start;
-    justify-content: center;
-    align-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #99ff33;
+
+}
+
+#compScore{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
     height: 150px;
     width: 150px;
     border: 2px solid #99ff33;
@@ -48,8 +57,8 @@ h1{
 
 #tries{
     display: flex;
-    align-items: start;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     align-content: space-around;
     height: 150px;
     width: 150px;
@@ -78,4 +87,9 @@ h1{
 
 #re:hover{
     transform: scale(1.1);
+}
+
+img{
+    height: 300px;
+    width: 300px;
 }
