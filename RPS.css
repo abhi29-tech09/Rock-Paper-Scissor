@@ -23,7 +23,10 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    transition: all 0.3s ease;
+}
+.buttons:hover{
+    transform: scale(1.1);
 }
 
 .button-layout{
@@ -68,5 +71,11 @@ h1{
    display: flex;
    align-items: center;
    justify-content: center;
+   position: absolute;
+   right: 0px;
+   transition: all 0.3s ease;
 }
 
+#re:hover{
+    transform: scale(1.1);
+}
