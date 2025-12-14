@@ -54,7 +54,8 @@ for (let divs of buttons){
         result = "Won";
     }
     
-    scores.innerHTML = `<h2>SCORE</h2><p>${score.wins}</p><h2>COMP S</h2><p>${score.lose}</p>`;
+    scores.innerHTML = `<h2>SCORE</h2><p>${score.wins}</p>`;
+    compScore.innerHTML =`<h2>COMP S</h2><p>${score.lose}</p`;
     trying.innerHTML = `        <h2>TRIES</h2><p>${score.Tries}</p>`;
     alert(`The computer has picked ${comp} and you have picked ${value} so you have ${result}`);
     console.log(score);

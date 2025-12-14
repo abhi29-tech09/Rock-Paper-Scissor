@@ -23,6 +23,7 @@ h1{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    color: black;
 }
 .buttons:hover{
     transform: scale(1.1);
